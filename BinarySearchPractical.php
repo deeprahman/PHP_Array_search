@@ -16,7 +16,7 @@ class VersionControl{
     public $bad = 2;
     public function __construct($n, $bad){
         $this->bad = $bad;
-        $this->bad = rand(1,$n);
+//        $this->bad = rand(1,$n);
     }
     public function isBadVersion($m)
     {
